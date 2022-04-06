@@ -6,8 +6,8 @@ After=network.service
 User=root
 Type=simple
 Restart=always
-ExecStart=/root/xmrig-6.16.4/miner.sh
-WorkingDirectory=/root/xmrig-6.16.4
+ExecStart=/root/xmrig-6.17.0/miner.sh
+WorkingDirectory=/root/xmrig-6.17.0
 
 [Install]
 WantedBy=multi-user.target
